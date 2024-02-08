@@ -1,0 +1,32 @@
+@media only screen and (max-width:768px){
+    .navigation .navbar .navbar__nav a{
+        display: none;
+    }
+
+    .banner h1{
+        font-size: 3rem;
+        text-align: center;
+     }
+
+.banner p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+     .banner form{
+        width: 80%;
+     }
+
+     .design__content {
+        grid-template-columns: 1fr;
+     }
+
+     .blog__content{
+        grid-template-columns: 1fr;
+     }
+.about__content{
+    grid-template-columns: 1fr;
+}
+    
+}
